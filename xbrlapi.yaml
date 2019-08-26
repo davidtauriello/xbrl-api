@@ -66,27 +66,27 @@ info:
     email: support@xbrl.us?subject=XBRL API question (Github)
 tags:
   - name: oauth2
-    description: - request authorization, receive tokens, and check tokens
+    description: request authorization, receive tokens, and check tokens
   - name: Facts
-    description: - return XBRL facts and metadata contained in a report
+    description: return XBRL facts and metadata contained in a report
   - name: Reports
-    description: - get details about XBRL reports
+    description: get details about XBRL reports
   - name: Entity
-    description: - get details about entities making XBRL filings
+    description: get details about entities making XBRL filings
   - name: Assertions
-    description: - return error information about XBRL facts and reports in filings
+    description: return error information about XBRL facts and reports in filings
   - name: DTS (discoverable taxonomy set)
-    description: - get details information about taxonomies.
+    description: get details information about taxonomies.
   - name: Concepts
-    description: - get information about XBRL concepts in a taxonomy
+    description: get information about XBRL concepts in a taxonomy
   - name: Labels
-    description: - return metadata associated with a concept and a dts identifier.
+    description: return metadata associated with a concept and a dts identifier.
   - name: Networks
-    description: - return network information about concepts and/or relationships in a dts.
+    description: return network information about concepts and/or relationships in a dts.
   - name: Relationships
-    description: - get relationship information associated with a network and/or dts identifier.
+    description: get relationship information associated with a network and/or dts identifier.
   - name: Documents
-    description: - request document information associated with a dts or report.
+    description: request document information associated with a dts or report.
     
 security:
   - oauth2: [ROLE_CLIENT, ROLE_USER]
