@@ -3,7 +3,7 @@
   "servers": [
     {
       "description": "Running this application XBRL US server",
-      "url": "https://api.xbrl.us/"
+      "url": "https://api.xbrl.us"
     }
   ],
   "info": {
